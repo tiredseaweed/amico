@@ -1,15 +1,16 @@
 //
-//  PersistentServicd.swift
+//  PersistenceService2.swift
 //  moodcal
 //
-//  Created by Uditi Sharma on 3/8/20.
+//  Created by Uditi Sharma on 3/29/20.
 //  Copyright © 2020 Uditi Sharma. All rights reserved.
 //
+
 
 import Foundation
 import CoreData
 
-class PersistenceService {
+class PersistenceService2 {
     // MARK: - Core Data stack
     
     private init() {}
@@ -44,7 +45,7 @@ class PersistenceService {
         })
         return container
     }()
-    
+     
     // MARK: - Core Data Saving support
     
     static func saveContext () {
